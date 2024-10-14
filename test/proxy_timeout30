@@ -1,0 +1,581 @@
+Start test case : 5
+ Time:8664.21,At:12244 send to:12249	SYN, seq:0, ack:0, ack num:0
+==In GlobalUDP:  Time:8664.42,At:12244 send to:12249	SYN, seq:0, ack:0, ack num:0
+==In GlobalUDP:  Time:8664.43,At:12249 recv from:12244	SYN, seq:0, ack:0, ack num:0
+ Time:8664.43,At:12249 recv from:0	SYN, seq:0, ack:0, ack num:0
+ Time:8664.44,At:12249 send to:12244	SYN, seq:0, ack:0, ack num:0
+==In GlobalUDP:  Time:8664.44,At:12249 send to:12244	SYN, seq:0, ack:0, ack num:0
+==In GlobalUDP:  Time:8664.45,At:12244 recv from:12249	SYN, seq:0, ack:0, ack num:0
+ Time:8664.45,At:12244 recv from:12249	SYN, seq:0, ack:0, ack num:0
+ Time:8664.45,At:12244 send to:12249	ACK, num:0
+==In GlobalUDP:  Time:8664.45,At:12244 send to:12249	ACK, num:0
+==In GlobalUDP:  Time:8664.45,At:12249 recv from:12244	ACK, num:0
+ Time:8664.45,At:12249 recv from:12244	ACK, num:0
+Receiving data...
+At rcvd1
+sending data to
+At send1
+ Time:8665.45,At:12244 send to:12249	Data, seq:2
+ Time:8665.45,At:12244 send to:12249	Data, seq:3
+==In GlobalUDP:  Time:8665.45,At:12244 send to:12249	Data, seq:2
+ Time:8665.45,At:12244 send to:12249	Data, seq:4
+==In GlobalUDP:  Time:8665.45,At:12244 send to:12249	Data, seq:3
+ Time:8665.45,At:12244 send to:12249	Data, seq:5
+==In GlobalUDP:  Time:8665.45,At:12244 send to:12249	Data, seq:4
+ Time:8665.45,At:12244 send to:12249	Data, seq:6
+==In GlobalUDP:  Time:8665.45,At:12244 send to:12249	Data, seq:5
+ Time:8665.45,At:12244 send to:12249	Data, seq:7
+==In GlobalUDP:  Time:8665.45,At:12244 send to:12249	Data, seq:6
+ Time:8665.45,At:12244 send to:12249	Data, seq:8
+==In GlobalUDP:  Time:8665.45,At:12244 send to:12249	Data, seq:7
+ Time:8665.45,At:12244 send to:12249	Data, seq:9
+==In GlobalUDP:  Time:8665.45,At:12244 send to:12249	Data, seq:8
+ Time:8665.45,At:12244 send to:12249	Data, seq:10
+==In GlobalUDP:  Time:8665.45,At:12244 send to:12249	Data, seq:9
+ Time:8665.45,At:12244 send to:12249	Data, seq:11
+first point at sending data to
+==In GlobalUDP:  Time:8665.45,At:12244 send to:12249	Data, seq:10
+timeoutNum 1
+timeout 29.99805235862732
+==In GlobalUDP:  Time:8665.45,At:12244 send to:12249	Data, seq:11
+==In GlobalUDP:  Time:8665.46,At:12249 recv from:12244	Data, seq:2
+ Time:8665.46,At:12249 recv from:12244	Data, seq:2
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.46,At:12249 send to:12244	ACK, num:2
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+1
+==In GlobalUDP:  Time:8665.46,At:12249 send to:12244	ACK, num:2
+==In GlobalUDP:  Time:8665.47,At:12249 recv from:12244	Data, seq:3
+ Time:8665.47,At:12249 recv from:12244	Data, seq:3
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.47,At:12249 send to:12244	ACK, num:3
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+2
+==In GlobalUDP:  Time:8665.47,At:12249 send to:12244	ACK, num:3
+==In GlobalUDP:  Time:8665.48,At:12244 recv from:12249	ACK, num:2
+ Time:8665.48,At:12244 recv from:12249	ACK, num:2
+timeoutNum 11
+timeout -1717578635.482403
+==In GlobalUDP:  Time:8665.48,At:12249 recv from:12244	Data, seq:4
+ Time:8665.48,At:12249 recv from:12244	Data, seq:4
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.48,At:12249 send to:12244	ACK, num:4
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+3
+==In GlobalUDP:  Time:8665.48,At:12249 send to:12244	ACK, num:4
+==In GlobalUDP:  Time:8665.49,At:12249 recv from:12244	Data, seq:5
+==In GlobalUDP:  Time:8665.49,At:12244 recv from:12249	ACK, num:3
+ Time:8665.49,At:12249 recv from:12244	Data, seq:5
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.49,At:12249 send to:12244	ACK, num:5
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+4
+ Time:8665.49,At:12244 recv from:12249	ACK, num:3
+timeoutNum 11
+timeout -1717578635.4940832
+==In GlobalUDP:  Time:8665.49,At:12249 send to:12244	ACK, num:5
+==In GlobalUDP:  Time:8665.49,At:12244 recv from:12249	ACK, num:4
+ Time:8665.49,At:12244 recv from:12249	ACK, num:4
+timeoutNum 11
+timeout -1717578635.4950564
+ Time:8665.49,At:12244 send to:12249	Data, seq:12
+timeoutNum 12
+timeout -1717578635.497976
+==In GlobalUDP:  Time:8665.49,At:12244 send to:12249	Data, seq:12
+ Time:8665.51,At:12244 send to:12249	Data, seq:13
+timeoutNum 13
+timeout -1717578635.512576
+==In GlobalUDP:  Time:8665.51,At:12244 send to:12249	Data, seq:13
+==In GlobalUDP:  Time:8665.52,At:12244 recv from:12249	ACK, num:5
+==In GlobalUDP:  Time:8665.52,At:12249 recv from:12244	Data, seq:6
+ Time:8665.52,At:12244 recv from:12249	ACK, num:5
+timeoutNum 13
+timeout -1717578635.5232835
+ Time:8665.52,At:12249 recv from:12244	Data, seq:6
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.52,At:12249 send to:12244	ACK, num:6
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+5
+==In GlobalUDP:  Time:8665.52,At:12249 send to:12244	ACK, num:6
+ Time:8665.52,At:12244 send to:12249	Data, seq:14
+timeoutNum 14
+timeout -1717578635.5291224
+==In GlobalUDP:  Time:8665.52,At:12244 send to:12249	Data, seq:14
+==In GlobalUDP:  Time:8665.53,At:12244 recv from:12249	ACK, num:6
+ Time:8665.53,At:12244 recv from:12249	ACK, num:6
+timeoutNum 14
+timeout -1717578635.534963
+ Time:8665.54,At:12244 send to:12249	Data, seq:15
+timeoutNum 15
+timeout -1717578635.5437229
+==In GlobalUDP:  Time:8665.54,At:12244 send to:12249	Data, seq:15
+ Time:8665.55,At:12244 send to:12249	Data, seq:16
+timeoutNum 6
+timeout 29.89387011528015
+==In GlobalUDP:  Time:8665.55,At:12244 send to:12249	Data, seq:16
+==In GlobalUDP:  Time:8665.57,At:12249 recv from:12244	Data, seq:7
+ Time:8665.57,At:12249 recv from:12244	Data, seq:7
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.57,At:12249 send to:12244	ACK, num:7
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+6
+==In GlobalUDP:  Time:8665.57,At:12249 send to:12244	ACK, num:7
+==In GlobalUDP:  Time:8665.61,At:12244 recv from:12249	ACK, num:7
+ Time:8665.61,At:12244 recv from:12249	ACK, num:7
+timeoutNum 16
+timeout -1717578635.6109207
+ Time:8665.62,At:12244 send to:12249	Data, seq:17
+timeoutNum 7
+timeout 29.829591989517212
+==In GlobalUDP:  Time:8665.62,At:12244 send to:12249	Data, seq:17
+==In GlobalUDP:  Time:8665.62,At:12249 recv from:12244	Data, seq:8
+ Time:8665.62,At:12249 recv from:12244	Data, seq:8
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.62,At:12249 send to:12244	ACK, num:8
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+7
+==In GlobalUDP:  Time:8665.62,At:12249 send to:12244	ACK, num:8
+==In GlobalUDP:  Time:8665.64,At:12244 recv from:12249	ACK, num:8
+==In GlobalUDP:  Time:8665.64,At:12249 recv from:12244	Data, seq:9
+ Time:8665.64,At:12249 recv from:12244	Data, seq:9
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.64,At:12249 send to:12244	ACK, num:9
+ Time:8665.64,At:12244 recv from:12249	ACK, num:8
+timeoutNum 17
+timeout -1717578635.6459618
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+8
+==In GlobalUDP:  Time:8665.64,At:12249 send to:12244	ACK, num:9
+ Time:8665.65,At:12244 send to:12249	Data, seq:18
+timeoutNum 8
+timeout 29.79747223854065
+==In GlobalUDP:  Time:8665.65,At:12244 send to:12249	Data, seq:18
+==In GlobalUDP:  Time:8665.65,At:12249 recv from:12244	Data, seq:10
+ Time:8665.65,At:12249 recv from:12244	Data, seq:10
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.65,At:12249 send to:12244	ACK, num:10
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+9
+==In GlobalUDP:  Time:8665.65,At:12249 send to:12244	ACK, num:10
+==In GlobalUDP:  Time:8665.66,At:12249 recv from:12244	Data, seq:11
+ Time:8665.66,At:12249 recv from:12244	Data, seq:11
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.66,At:12249 send to:12244	ACK, num:11
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+10
+==In GlobalUDP:  Time:8665.66,At:12249 send to:12244	ACK, num:11
+==In GlobalUDP:  Time:8665.67,At:12244 recv from:12249	ACK, num:9
+ Time:8665.67,At:12244 recv from:12249	ACK, num:9
+timeoutNum 18
+timeout -1717578635.6781259
+ Time:8665.68,At:12244 send to:12249	Data, seq:19
+timeoutNum 9
+timeout 29.768227577209473
+==In GlobalUDP:  Time:8665.68,At:12244 send to:12249	Data, seq:19
+==In GlobalUDP:  Time:8665.68,At:12244 recv from:12249	ACK, num:10
+ Time:8665.68,At:12244 recv from:12249	ACK, num:10
+timeoutNum 19
+timeout -1717578635.6898057
+ Time:8665.70,At:12244 send to:12249	Data, seq:20
+timeoutNum 10
+timeout 29.75198006629944
+==In GlobalUDP:  Time:8665.70,At:12244 send to:12249	Data, seq:20
+==In GlobalUDP:  Time:8665.70,At:12249 recv from:12244	Data, seq:12
+ Time:8665.70,At:12249 recv from:12244	Data, seq:12
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.70,At:12249 send to:12244	ACK, num:12
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+11
+==In GlobalUDP:  Time:8665.70,At:12249 send to:12244	ACK, num:12
+==In GlobalUDP:  Time:8665.70,At:12244 recv from:12249	ACK, num:11
+ Time:8665.70,At:12244 recv from:12249	ACK, num:11
+timeoutNum 20
+timeout -1717578635.7070298
+==In GlobalUDP:  Time:8665.71,At:12244 recv from:12249	ACK, num:12
+==In GlobalUDP:  Time:8665.71,At:12249 recv from:12244	Data, seq:13
+ Time:8665.71,At:12249 recv from:12244	Data, seq:13
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.71,At:12249 send to:12244	ACK, num:13
+ Time:8665.71,At:12244 recv from:12249	ACK, num:12
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+timeoutNum 20
+12timeout -1717578635.71287
+
+==In GlobalUDP:  Time:8665.71,At:12249 send to:12244	ACK, num:13
+ Time:8665.71,At:12244 send to:12249	Data, seq:21
+timeoutNum 21
+timeout -1717578635.7167628
+==In GlobalUDP:  Time:8665.71,At:12244 send to:12249	Data, seq:21
+==In GlobalUDP:  Time:8665.72,At:12244 recv from:12249	ACK, num:13
+==In GlobalUDP:  Time:8665.72,At:12249 recv from:12244	Data, seq:14
+ Time:8665.72,At:12249 recv from:12244	Data, seq:14
+ Time:8665.72,At:12244 recv from:12249	ACK, num:13
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+timeoutNum 21
+timeout -1717578635.7255228
+ Time:8665.72,At:12249 send to:12244	ACK, num:14
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+13
+==In GlobalUDP:  Time:8665.72,At:12249 send to:12244	ACK, num:14
+==In GlobalUDP:  Time:8665.73,At:12244 recv from:12249	ACK, num:14
+ Time:8665.73,At:12244 recv from:12249	ACK, num:14
+timeoutNum 21
+timeout -1717578635.731362
+==In GlobalUDP:  Time:8665.74,At:12249 recv from:12244	Data, seq:15
+ Time:8665.74,At:12249 recv from:12244	Data, seq:15
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.74,At:12249 send to:12244	ACK, num:15
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+14
+==In GlobalUDP:  Time:8665.74,At:12249 send to:12244	ACK, num:15
+ Time:8665.74,At:12244 send to:12249	Data, seq:22
+timeoutNum 22
+timeout -1717578635.7469363
+==In GlobalUDP:  Time:8665.74,At:12244 send to:12249	Data, seq:22
+==In GlobalUDP:  Time:8665.74,At:12249 recv from:12244	Data, seq:16
+ Time:8665.74,At:12249 recv from:12244	Data, seq:16
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.74,At:12249 send to:12244	ACK, num:16
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+15
+==In GlobalUDP:  Time:8665.74,At:12249 send to:12244	ACK, num:16
+==In GlobalUDP:  Time:8665.75,At:12244 recv from:12249	ACK, num:15
+ Time:8665.75,At:12244 recv from:12249	ACK, num:15
+timeoutNum 22
+timeout -1717578635.7556956
+ Time:8665.76,At:12244 send to:12249	Data, seq:23
+timeoutNum 23
+timeout -1717578635.7615356
+==In GlobalUDP:  Time:8665.76,At:12244 send to:12249	Data, seq:23
+==In GlobalUDP:  Time:8665.77,At:12244 recv from:12249	ACK, num:16
+ Time:8665.77,At:12244 recv from:12249	ACK, num:16
+timeoutNum 23
+timeout -1717578635.7702987
+ Time:8665.77,At:12244 send to:12249	Data, seq:24
+timeoutNum 24
+timeout -1717578635.7790945
+==In GlobalUDP:  Time:8665.77,At:12244 send to:12249	Data, seq:24
+==In GlobalUDP:  Time:8665.78,At:12249 recv from:12244	Data, seq:17
+ Time:8665.78,At:12249 recv from:12244	Data, seq:17
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.78,At:12249 send to:12244	ACK, num:17
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+16
+==In GlobalUDP:  Time:8665.78,At:12249 recv from:12244	Data, seq:18
+==In GlobalUDP:  Time:8665.78,At:12249 send to:12244	ACK, num:17
+ Time:8665.78,At:12249 recv from:12244	Data, seq:18
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.78,At:12249 send to:12244	ACK, num:18
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+17
+==In GlobalUDP:  Time:8665.78,At:12249 recv from:12244	Data, seq:19
+==In GlobalUDP:  Time:8665.78,At:12249 send to:12244	ACK, num:18
+ Time:8665.78,At:12249 recv from:12244	Data, seq:19
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.78,At:12249 send to:12244	ACK, num:19
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+18
+==In GlobalUDP:  Time:8665.78,At:12249 send to:12244	ACK, num:19
+ Time:8665.79,At:12244 send to:12249	Data, seq:25
+timeoutNum 25
+timeout -1717578635.793695
+==In GlobalUDP:  Time:8665.79,At:12244 send to:12249	Data, seq:25
+==In GlobalUDP:  Time:8665.79,At:12244 recv from:12249	ACK, num:17
+==In GlobalUDP:  Time:8665.79,At:12249 recv from:12244	Data, seq:20
+ Time:8665.79,At:12249 recv from:12244	Data, seq:20
+ Time:8665.79,At:12244 recv from:12249	ACK, num:17
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+timeoutNum 25
+timeout -1717578635.795642
+ Time:8665.79,At:12249 send to:12244	ACK, num:20
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+19
+==In GlobalUDP:  Time:8665.79,At:12249 send to:12244	ACK, num:20
+ Time:8665.81,At:12244 send to:12249	Data, seq:26
+timeoutNum 26
+timeout -1717578635.8102415
+==In GlobalUDP:  Time:8665.81,At:12244 send to:12249	Data, seq:26
+==In GlobalUDP:  Time:8665.81,At:12244 recv from:12249	ACK, num:18
+ Time:8665.81,At:12244 recv from:12249	ACK, num:18
+timeoutNum 26
+timeout -1717578635.8190017
+==In GlobalUDP:  Time:8665.82,At:12244 recv from:12249	ACK, num:19
+ Time:8665.82,At:12244 recv from:12249	ACK, num:19
+timeoutNum 26
+timeout -1717578635.8248415
+==In GlobalUDP:  Time:8665.83,At:12249 recv from:12244	Data, seq:21
+ Time:8665.83,At:12249 recv from:12244	Data, seq:21
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.83,At:12249 send to:12244	ACK, num:21
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+20
+==In GlobalUDP:  Time:8665.83,At:12249 send to:12244	ACK, num:21
+ Time:8665.83,At:12244 send to:12249	Data, seq:27
+timeoutNum 27
+timeout -1717578635.8394413
+==In GlobalUDP:  Time:8665.83,At:12244 send to:12249	Data, seq:27
+==In GlobalUDP:  Time:8665.84,At:12244 recv from:12249	ACK, num:20
+ Time:8665.84,At:12244 recv from:12249	ACK, num:20
+timeoutNum 27
+timeout -1717578635.8482018
+ Time:8665.85,At:12244 send to:12249	Data, seq:28
+timeoutNum 28
+timeout -1717578635.856962
+==In GlobalUDP:  Time:8665.85,At:12244 send to:12249	Data, seq:28
+==In GlobalUDP:  Time:8665.85,At:12249 recv from:12244	Data, seq:22
+ Time:8665.85,At:12249 recv from:12244	Data, seq:22
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.85,At:12249 send to:12244	ACK, num:22
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+21
+==In GlobalUDP:  Time:8665.85,At:12249 send to:12244	ACK, num:22
+==In GlobalUDP:  Time:8665.86,At:12249 recv from:12244	Data, seq:23
+ Time:8665.86,At:12244 recv from:12249	ACK, num:21
+timeoutNum 28
+timeout -1717578635.8657265
+==In GlobalUDP:  Time:8665.86,At:12244 recv from:12249	ACK, num:21
+ Time:8665.86,At:12249 recv from:12244	Data, seq:23
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.86,At:12249 send to:12244	ACK, num:23
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+22
+==In GlobalUDP:  Time:8665.86,At:12249 send to:12244	ACK, num:23
+ Time:8665.87,At:12244 send to:12249	Data, seq:29
+timeoutNum 29
+timeout -1717578635.872542
+==In GlobalUDP:  Time:8665.87,At:12244 send to:12249	Data, seq:29
+ Time:8665.88,At:12244 send to:12249	Data, seq:30
+timeoutNum 30
+timeout -1717578635.8881516
+==In GlobalUDP:  Time:8665.88,At:12249 recv from:12244	Data, seq:24
+==In GlobalUDP:  Time:8665.88,At:12244 recv from:12249	ACK, num:22
+==In GlobalUDP:  Time:8665.89,At:12244 send to:12249	Data, seq:30
+ Time:8665.89,At:12244 recv from:12249	ACK, num:22
+ Time:8665.89,At:12249 recv from:12244	Data, seq:24
+timeoutNum 30
+timeout -1717578635.8901002
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.89,At:12249 send to:12244	ACK, num:24
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+23
+==In GlobalUDP:  Time:8665.89,At:12249 recv from:12244	Data, seq:25
+==In GlobalUDP:  Time:8665.89,At:12249 send to:12244	ACK, num:24
+==In GlobalUDP:  Time:8665.89,At:12244 recv from:12249	ACK, num:23
+ Time:8665.89,At:12244 recv from:12249	ACK, num:23
+timeoutNum 30
+timeout -1717578635.8910723
+ Time:8665.89,At:12249 recv from:12244	Data, seq:25
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.89,At:12249 send to:12244	ACK, num:25
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+24
+==In GlobalUDP:  Time:8665.89,At:12249 send to:12244	ACK, num:25
+==In GlobalUDP:  Time:8665.90,At:12249 recv from:12244	Data, seq:26
+ Time:8665.90,At:12249 recv from:12244	Data, seq:26
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.90,At:12249 send to:12244	ACK, num:26
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+25
+==In GlobalUDP:  Time:8665.90,At:12249 send to:12244	ACK, num:26
+ Time:8665.90,At:12244 send to:12249	Data, seq:31
+timeoutNum 31
+timeout -1717578635.9037251
+==In GlobalUDP:  Time:8665.90,At:12244 send to:12249	Data, seq:31
+==In GlobalUDP:  Time:8665.91,At:12249 recv from:12244	Data, seq:27
+ Time:8665.91,At:12249 recv from:12244	Data, seq:27
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.91,At:12249 send to:12244	ACK, num:27
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+26
+==In GlobalUDP:  Time:8665.91,At:12249 send to:12244	ACK, num:27
+ Time:8665.91,At:12244 send to:12249	Data, seq:32
+timeoutNum 32
+timeout -1717578635.9192975
+==In GlobalUDP:  Time:8665.91,At:12244 send to:12249	Data, seq:32
+==In GlobalUDP:  Time:8665.92,At:12249 recv from:12244	Data, seq:28
+ Time:8665.92,At:12249 recv from:12244	Data, seq:28
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.92,At:12249 send to:12244	ACK, num:28
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+27
+==In GlobalUDP:  Time:8665.92,At:12249 send to:12244	ACK, num:28
+==In GlobalUDP:  Time:8665.93,At:12244 recv from:12249	ACK, num:24
+ Time:8665.93,At:12244 recv from:12249	ACK, num:24
+timeoutNum 32
+timeout -1717578635.9329247
+ Time:8665.95,At:12244 send to:12249	Data, seq:33
+timeoutNum 33
+timeout -1717578635.95142
+==In GlobalUDP:  Time:8665.95,At:12244 send to:12249	Data, seq:33
+==In GlobalUDP:  Time:8665.96,At:12249 recv from:12244	Data, seq:29
+ Time:8665.96,At:12249 recv from:12244	Data, seq:29
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.96,At:12249 send to:12244	ACK, num:29
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+28
+==In GlobalUDP:  Time:8665.96,At:12249 recv from:12244	Data, seq:30
+ Time:8665.96,At:12249 recv from:12244	Data, seq:30
+==In GlobalUDP:  Time:8665.96,At:12249 send to:12244	ACK, num:29
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8665.96,At:12249 send to:12244	ACK, num:30
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+29
+==In GlobalUDP:  Time:8665.96,At:12249 send to:12244	ACK, num:30
+ Time:8665.96,At:12244 send to:12249	Data, seq:34
+timeoutNum 24
+timeout 29.826699256896973
+==In GlobalUDP:  Time:8665.96,At:12244 send to:12249	Data, seq:34
+==In GlobalUDP:  Time:8665.97,At:12244 recv from:12249	ACK, num:25
+ Time:8665.97,At:12244 recv from:12249	ACK, num:25
+timeoutNum 34
+timeout -1717578635.9738095
+ Time:8665.98,At:12244 send to:12249	Data, seq:35
+timeoutNum 25
+timeout 29.827635288238525
+==In GlobalUDP:  Time:8665.98,At:12244 send to:12249	Data, seq:35
+==In GlobalUDP:  Time:8666.00,At:12244 recv from:12249	ACK, num:26
+==In GlobalUDP:  Time:8666.00,At:12249 recv from:12244	Data, seq:31
+ Time:8666.00,At:12249 recv from:12244	Data, seq:31
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8666.00,At:12244 recv from:12249	ACK, num:26
+ Time:8666.00,At:12249 send to:12244	ACK, num:31
+timeoutNum 35
+timeout -1717578636.0030465
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+30
+==In GlobalUDP:  Time:8666.00,At:12249 send to:12244	ACK, num:31
+==In GlobalUDP:  Time:8666.00,At:12244 recv from:12249	ACK, num:27
+==In GlobalUDP:  Time:8666.00,At:12249 recv from:12244	Data, seq:32
+ Time:8666.00,At:12244 recv from:12249	ACK, num:27
+timeoutNum 35
+timeout -1717578636.0088863
+ Time:8666.00,At:12249 recv from:12244	Data, seq:32
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8666.00,At:12249 send to:12244	ACK, num:32
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+31
+==In GlobalUDP:  Time:8666.00,At:12249 send to:12244	ACK, num:32
+ Time:8666.01,At:12244 send to:12249	Data, seq:36
+timeoutNum 36
+timeout -1717578636.0118062
+==In GlobalUDP:  Time:8666.01,At:12244 send to:12249	Data, seq:36
+==In GlobalUDP:  Time:8666.02,At:12249 recv from:12244	Data, seq:33
+==In GlobalUDP:  Time:8666.02,At:12244 recv from:12249	ACK, num:28
+ Time:8666.02,At:12249 recv from:12244	Data, seq:33
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8666.02,At:12249 send to:12244	ACK, num:33
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+32
+ Time:8666.02,At:12244 recv from:12249	ACK, num:28
+timeoutNum 36
+timeout -1717578636.0215392
+==In GlobalUDP:  Time:8666.02,At:12249 send to:12244	ACK, num:33
+==In GlobalUDP:  Time:8666.02,At:12244 recv from:12249	ACK, num:29
+ Time:8666.02,At:12244 recv from:12249	ACK, num:29
+timeoutNum 36
+timeout -1717578636.022513
+==In GlobalUDP:  Time:8666.02,At:12244 recv from:12249	ACK, num:30
+ Time:8666.02,At:12244 recv from:12249	ACK, num:30
+timeoutNum 36
+timeout -1717578636.0273798
+==In GlobalUDP:  Time:8666.03,At:12249 recv from:12244	Data, seq:34
+ Time:8666.03,At:12249 recv from:12244	Data, seq:34
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8666.03,At:12249 send to:12244	ACK, num:34
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+33
+==In GlobalUDP:  Time:8666.03,At:12249 send to:12244	ACK, num:34
+==In GlobalUDP:  Time:8666.03,At:12249 recv from:12244	Data, seq:35
+ Time:8666.03,At:12249 recv from:12244	Data, seq:35
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8666.03,At:12249 send to:12244	ACK, num:35
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+34
+==In GlobalUDP:  Time:8666.03,At:12249 send to:12244	ACK, num:35
+ Time:8666.04,At:12244 send to:12249	Data, seq:37
+timeoutNum 37
+timeout -1717578636.0449002
+==In GlobalUDP:  Time:8666.04,At:12244 send to:12249	Data, seq:37
+==In GlobalUDP:  Time:8666.04,At:12244 recv from:12249	ACK, num:32
+==In GlobalUDP:  Time:8666.05,At:12249 recv from:12244	Data, seq:36
+ Time:8666.05,At:12249 recv from:12244	Data, seq:36
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8666.05,At:12249 send to:12244	ACK, num:36
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+35
+ Time:8666.05,At:12244 recv from:12249	ACK, num:32
+timeoutNum 37
+timeout -1717578636.0546327
+==In GlobalUDP:  Time:8666.05,At:12249 recv from:12244	Data, seq:37
+ Time:8666.05,At:12249 recv from:12244	Data, seq:37
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+==In GlobalUDP:  Time:8666.05,At:12249 send to:12244	ACK, num:36
+ Time:8666.05,At:12249 send to:12244	ACK, num:37
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+36
+==In GlobalUDP:  Time:8666.05,At:12249 send to:12244	ACK, num:37
+==In GlobalUDP:  Time:8666.05,At:12244 recv from:12249	ACK, num:33
+ Time:8666.05,At:12244 recv from:12249	ACK, num:33
+timeoutNum 37
+timeout -1717578636.0594995
+==In GlobalUDP:  Time:8666.06,At:12244 recv from:12249	ACK, num:34
+ Time:8666.06,At:12244 recv from:12249	ACK, num:34
+timeoutNum 37
+timeout -1717578636.0653424
+ Time:8666.07,At:12244 send to:12249	Data, seq:38
+timeoutNum 38
+timeout -1717578636.0741036
+==In GlobalUDP:  Time:8666.07,At:12244 send to:12249	Data, seq:38
+==In GlobalUDP:  Time:8666.07,At:12249 recv from:12244	Data, seq:38
+ Time:8666.07,At:12249 recv from:12244	Data, seq:38
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8666.07,At:12249 send to:12244	ACK, num:38
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+37
+==In GlobalUDP:  Time:8666.07,At:12249 send to:12244	ACK, num:38
+==In GlobalUDP:  Time:8666.08,At:12244 recv from:12249	ACK, num:35 Time:8666.08,At:12244 recv from:12249	ACK, num:35
+
+timeoutNum 38
+timeout -1717578636.0848463
+ Time:8666.09,At:12244 send to:12249	Data, seq:39
+timeoutNum 39
+timeout -1717578636.0916607
+==In GlobalUDP:  Time:8666.09,At:12244 send to:12249	Data, seq:39
+==In GlobalUDP:  Time:8666.10,At:12244 recv from:12249	ACK, num:36
+ Time:8666.10,At:12244 recv from:12249	ACK, num:36
+timeoutNum 39
+timeout -1717578636.1043143
+==In GlobalUDP:  Time:8666.11,At:12244 recv from:12249	ACK, num:37
+==In GlobalUDP:  Time:8666.11,At:12249 recv from:12244	Data, seq:39
+ Time:8666.11,At:12244 recv from:12249	ACK, num:37
+timeoutNum 39
+timeout -1717578636.1159937
+ Time:8666.11,At:12249 recv from:12244	Data, seq:39
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8666.11,At:12249 send to:12244	ACK, num:39
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+38
+==In GlobalUDP:  Time:8666.11,At:12249 send to:12244	ACK, num:39
+ Time:8666.12,At:12244 send to:12249	Data, seq:40
+timeoutNum 30
+timeout 29.780914783477783
+==In GlobalUDP:  Time:8666.12,At:12244 send to:12249	Data, seq:40
+==In GlobalUDP:  Time:8666.12,At:12249 recv from:12244	Data, seq:40
+==In GlobalUDP:  Time:8666.12,At:12244 recv from:12249	ACK, num:38
+ Time:8666.12,At:12244 recv from:12249	ACK, num:38
+ Time:8666.12,At:12249 recv from:12244	Data, seq:40
+timeoutNum 30
+timeout 29.776050567626953
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:8666.12,At:12249 send to:12244	ACK, num:40
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+39
+==In GlobalUDP:  Time:8666.12,At:12249 send to:12244	ACK, num:40
+==In GlobalUDP:  Time:8666.12,At:12244 recv from:12249	ACK, num:39
+ Time:8666.12,At:12244 recv from:12249	ACK, num:39
+timeoutNum 30
+timeout 29.774104356765747
+==In GlobalUDP:  Time:8666.15,At:12244 recv from:12249	ACK, num:40
+ Time:8666.15,At:12244 recv from:12249	ACK, num:40
+timeoutNum 30
+timeout 29.746851205825806

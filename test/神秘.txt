@@ -1,0 +1,572 @@
+E:\ProgramFiles4\Python\Python3913\python.exe D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\test_case.py
+Start test case : 5
+ Time:0261.12,At:12244 send to:12249	SYN, seq:0, ack:0, ack num:0
+==In GlobalUDP:  Time:0261.32,At:12244 send to:12249	SYN, seq:0, ack:0, ack num:0
+///Before push In GlobalUDP:  Time:0261.33,At:12249 recv from:12244	SYN, seq:0, ack:0, ack num:0
+==In GlobalUDP:  Time:0261.33,At:12249 recv from:12244	SYN, seq:0, ack:0, ack num:0
+ Time:0261.33,At:12249 recv from:0	SYN, seq:0, ack:0, ack num:0
+ Time:0261.34,At:12249 send to:12244	SYN, seq:0, ack:0, ack num:0
+==In GlobalUDP:  Time:0261.34,At:12249 send to:12244	SYN, seq:0, ack:0, ack num:0
+///Before push In GlobalUDP:  Time:0261.36,At:12244 recv from:12249	SYN, seq:0, ack:0, ack num:0
+==In GlobalUDP:  Time:0261.36,At:12244 recv from:12249	SYN, seq:0, ack:0, ack num:0
+ Time:0261.36,At:12244 recv from:12249	SYN, seq:0, ack:0, ack num:0
+ Time:0261.36,At:12244 send to:12249	ACK, num:0
+==In GlobalUDP:  Time:0261.36,At:12244 send to:12249	ACK, num:0
+///Before push In GlobalUDP:  Time:0261.37,At:12249 recv from:12244	ACK, num:0
+==In GlobalUDP:  Time:0261.37,At:12249 recv from:12244	ACK, num:0
+ Time:0261.37,At:12249 recv from:12244	ACK, num:0
+Receiving data...
+At rcvd1
+sending data to
+At send1
+ Time:0262.36,At:12244 send to:12249	Data, seq:2
+ Time:0262.36,At:12244 send to:12249	Data, seq:3
+==In GlobalUDP:  Time:0262.36,At:12244 send to:12249	Data, seq:2
+ Time:0262.36,At:12244 send to:12249	Data, seq:4
+==In GlobalUDP:  Time:0262.36,At:12244 send to:12249	Data, seq:3
+ Time:0262.36,At:12244 send to:12249	Data, seq:5
+==In GlobalUDP:  Time:0262.36,At:12244 send to:12249	Data, seq:4
+ Time:0262.36,At:12244 send to:12249	Data, seq:6
+==In GlobalUDP:  Time:0262.36,At:12244 send to:12249	Data, seq:5
+ Time:0262.36,At:12244 send to:12249	Data, seq:7
+==In GlobalUDP:  Time:0262.36,At:12244 send to:12249	Data, seq:6
+ Time:0262.36,At:12244 send to:12249	Data, seq:8
+==In GlobalUDP:  Time:0262.36,At:12244 send to:12249	Data, seq:7
+ Time:0262.36,At:12244 send to:12249	Data, seq:9
+==In GlobalUDP:  Time:0262.36,At:12244 send to:12249	Data, seq:8
+ Time:0262.36,At:12244 send to:12249	Data, seq:10
+==In GlobalUDP:  Time:0262.36,At:12244 send to:12249	Data, seq:9
+ Time:0262.36,At:12244 send to:12249	Data, seq:11
+==In GlobalUDP:  Time:0262.36,At:12244 send to:12249	Data, seq:10
+first point at sending data to
+timeoutNum 1
+timeout 29.998838901519775
+==In GlobalUDP:  Time:0262.36,At:12244 send to:12249	Data, seq:11
+///Before push In GlobalUDP:  Time:0262.37,At:12249 recv from:12244	Data, seq:2
+==In GlobalUDP:  Time:0262.37,At:12249 recv from:12244	Data, seq:2
+///Before push In GlobalUDP:  Time:0262.37,At:12249 recv from:12244	Data, seq:3
+ Time:0262.37,At:12249 recv from:12244	Data, seq:2
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.37,At:12249 send to:12244	ACK, num:2
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+1
+==In GlobalUDP:  Time:0262.37,At:12249 recv from:12244	Data, seq:3
+ Time:0262.37,At:12249 recv from:12244	Data, seq:3
+==In GlobalUDP:  Time:0262.37,At:12249 send to:12244	ACK, num:2
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.37,At:12249 send to:12244	ACK, num:3
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+2
+==In GlobalUDP:  Time:0262.37,At:12249 send to:12244	ACK, num:3
+///Before push In GlobalUDP:  Time:0262.38,At:12244 recv from:12249	ACK, num:2
+==In GlobalUDP:  Time:0262.38,At:12244 recv from:12249	ACK, num:2
+ Time:0262.38,At:12244 recv from:12249	ACK, num:2
+timeoutNum 11
+timeout -1717580232.384835
+ Time:0262.38,At:12244 send to:12249	Data, seq:12
+timeoutNum 2
+timeout 29.97392463684082
+==In GlobalUDP:  Time:0262.38,At:12244 send to:12249	Data, seq:12
+///Before push In GlobalUDP:  Time:0262.39,At:12244 recv from:12249	ACK, num:3
+==In GlobalUDP:  Time:0262.39,At:12244 recv from:12249	ACK, num:3
+ Time:0262.39,At:12244 recv from:12249	ACK, num:3
+timeoutNum 12
+timeout -1717580232.3955333
+ Time:0262.40,At:12244 send to:12249	Data, seq:13
+timeoutNum 3
+timeout 29.95909309387207
+==In GlobalUDP:  Time:0262.40,At:12244 send to:12249	Data, seq:13
+///Before push In GlobalUDP:  Time:0262.41,At:12249 recv from:12244	Data, seq:4
+==In GlobalUDP:  Time:0262.41,At:12249 recv from:12244	Data, seq:4
+ Time:0262.41,At:12249 recv from:12244	Data, seq:4
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.41,At:12249 send to:12244	ACK, num:4
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+3
+==In GlobalUDP:  Time:0262.41,At:12249 send to:12244	ACK, num:4
+///Before push In GlobalUDP:  Time:0262.44,At:12249 recv from:12244	Data, seq:5
+==In GlobalUDP:  Time:0262.44,At:12249 recv from:12244	Data, seq:5
+ Time:0262.44,At:12249 recv from:12244	Data, seq:5
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.44,At:12249 send to:12244	ACK, num:5
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+4
+==In GlobalUDP:  Time:0262.44,At:12249 send to:12244	ACK, num:5
+///Before push In GlobalUDP:  Time:0262.44,At:12244 recv from:12249	ACK, num:4
+///Before push In GlobalUDP:  Time:0262.44,At:12249 recv from:12244	Data, seq:6
+==In GlobalUDP:  Time:0262.44,At:12244 recv from:12249	ACK, num:4
+==In GlobalUDP:  Time:0262.44,At:12249 recv from:12244	Data, seq:6
+ Time:0262.44,At:12244 recv from:12249	ACK, num:4
+timeoutNum 13
+timeout -1717580232.4478798
+ Time:0262.44,At:12249 recv from:12244	Data, seq:6
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.44,At:12249 send to:12244	ACK, num:6
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+5
+==In GlobalUDP:  Time:0262.44,At:12249 send to:12244	ACK, num:6
+ Time:0262.45,At:12244 send to:12249	Data, seq:14
+timeoutNum 4
+timeout 29.91281509399414
+==In GlobalUDP:  Time:0262.45,At:12244 send to:12249	Data, seq:14
+///Before push In GlobalUDP:  Time:0262.45,At:12244 recv from:12249	ACK, num:5
+==In GlobalUDP:  Time:0262.45,At:12244 recv from:12249	ACK, num:5
+ Time:0262.45,At:12244 recv from:12249	ACK, num:5
+timeoutNum 14
+timeout -1717580232.4524271
+///Before push In GlobalUDP:  Time:0262.46,At:12244 recv from:12249	ACK, num:6
+==In GlobalUDP:  Time:0262.46,At:12244 recv from:12249	ACK, num:6
+ Time:0262.46,At:12244 recv from:12249	ACK, num:6
+timeoutNum 14
+timeout -1717580232.46387
+ Time:0262.46,At:12244 send to:12249	Data, seq:15
+timeoutNum 15
+timeout -1717580232.46593
+==In GlobalUDP:  Time:0262.46,At:12244 send to:12249	Data, seq:15
+///Before push In GlobalUDP:  Time:0262.47,At:12249 recv from:12244	Data, seq:7
+==In GlobalUDP:  Time:0262.47,At:12249 recv from:12244	Data, seq:7
+ Time:0262.47,At:12249 recv from:12244	Data, seq:7
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.47,At:12249 send to:12244	ACK, num:7
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+6
+==In GlobalUDP:  Time:0262.47,At:12249 send to:12244	ACK, num:7
+///Before push In GlobalUDP:  Time:0262.47,At:12244 recv from:12249	ACK, num:7
+==In GlobalUDP:  Time:0262.47,At:12244 recv from:12249	ACK, num:7
+ Time:0262.47,At:12244 recv from:12249	ACK, num:7
+timeoutNum 15
+timeout -1717580232.4794943
+ Time:0262.48,At:12244 send to:12249	Data, seq:16
+timeoutNum 16
+timeout -1717580232.4815462
+==In GlobalUDP:  Time:0262.48,At:12244 send to:12249	Data, seq:16
+ Time:0262.49,At:12244 send to:12249	Data, seq:17
+timeoutNum 7
+timeout 29.86696481704712
+==In GlobalUDP:  Time:0262.49,At:12244 send to:12249	Data, seq:17
+///Before push In GlobalUDP:  Time:0262.51,At:12249 recv from:12244	Data, seq:8
+==In GlobalUDP:  Time:0262.51,At:12249 recv from:12244	Data, seq:8
+ Time:0262.51,At:12249 recv from:12244	Data, seq:8
+///Before push In GlobalUDP:  Time:0262.51,At:12249 recv from:12244	Data, seq:9
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.51,At:12249 send to:12244	ACK, num:8
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+7
+==In GlobalUDP:  Time:0262.51,At:12249 recv from:12244	Data, seq:9
+==In GlobalUDP:  Time:0262.51,At:12249 send to:12244	ACK, num:8
+ Time:0262.51,At:12249 recv from:12244	Data, seq:9
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.51,At:12249 send to:12244	ACK, num:9
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+8
+==In GlobalUDP:  Time:0262.51,At:12249 send to:12244	ACK, num:9
+///Before push In GlobalUDP:  Time:0262.52,At:12249 recv from:12244	Data, seq:10
+///Before push In GlobalUDP:  Time:0262.52,At:12244 recv from:12249	ACK, num:8
+==In GlobalUDP:  Time:0262.52,At:12249 recv from:12244	Data, seq:10
+==In GlobalUDP:  Time:0262.52,At:12244 recv from:12249	ACK, num:8
+ Time:0262.52,At:12249 recv from:12244	Data, seq:10
+ Time:0262.52,At:12244 recv from:12249	ACK, num:8
+timeoutNum 17
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+timeout -1717580232.5228755
+ Time:0262.52,At:12249 send to:12244	ACK, num:10
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+9
+==In GlobalUDP:  Time:0262.52,At:12249 send to:12244	ACK, num:10
+///Before push In GlobalUDP:  Time:0262.52,At:12249 recv from:12244	Data, seq:11
+///Before push In GlobalUDP:  Time:0262.52,At:12244 recv from:12249	ACK, num:9
+==In GlobalUDP:  Time:0262.52,At:12244 recv from:12249	ACK, num:9
+==In GlobalUDP:  Time:0262.52,At:12249 recv from:12244	Data, seq:11
+ Time:0262.52,At:12244 recv from:12249	ACK, num:9
+timeoutNum 17
+timeout -1717580232.5279233
+ Time:0262.52,At:12249 recv from:12244	Data, seq:11
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.52,At:12249 send to:12244	ACK, num:11
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+10
+==In GlobalUDP:  Time:0262.52,At:12249 send to:12244	ACK, num:11
+///Before push In GlobalUDP:  Time:0262.53,At:12244 recv from:12249	ACK, num:10
+==In GlobalUDP:  Time:0262.53,At:12244 recv from:12249	ACK, num:10
+ Time:0262.53,At:12244 recv from:12249	ACK, num:10
+timeoutNum 17
+timeout -1717580232.538658
+ Time:0262.54,At:12244 send to:12249	Data, seq:18
+timeoutNum 18
+timeout -1717580232.5427413
+==In GlobalUDP:  Time:0262.54,At:12244 send to:12249	Data, seq:18
+ Time:0262.55,At:12244 send to:12249	Data, seq:19
+timeoutNum 19
+timeout -1717580232.559674
+==In GlobalUDP:  Time:0262.55,At:12244 send to:12249	Data, seq:19
+///Before push In GlobalUDP:  Time:0262.56,At:12249 recv from:12244	Data, seq:12///Before push In GlobalUDP:  Time:0262.56,At:12244 recv from:12249	ACK, num:11
+
+==In GlobalUDP:  Time:0262.56,At:12249 recv from:12244	Data, seq:12
+==In GlobalUDP:  Time:0262.57,At:12244 recv from:12249	ACK, num:11
+ Time:0262.57,At:12249 recv from:12244	Data, seq:12
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.57,At:12249 send to:12244	ACK, num:12
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+11
+ Time:0262.57,At:12244 recv from:12249	ACK, num:11
+timeoutNum 19
+timeout -1717580232.5700707
+==In GlobalUDP:  Time:0262.57,At:12249 send to:12244	ACK, num:12
+ Time:0262.57,At:12244 send to:12249	Data, seq:20
+timeoutNum 20
+timeout -1717580232.5743484
+==In GlobalUDP:  Time:0262.57,At:12244 send to:12249	Data, seq:20
+///Before push In GlobalUDP:  Time:0262.57,At:12244 recv from:12249	ACK, num:12
+==In GlobalUDP:  Time:0262.57,At:12244 recv from:12249	ACK, num:12
+ Time:0262.57,At:12244 recv from:12249	ACK, num:12
+timeoutNum 20
+timeout -1717580232.5755167
+///Before push In GlobalUDP:  Time:0262.58,At:12249 recv from:12244	Data, seq:13
+==In GlobalUDP:  Time:0262.59,At:12249 recv from:12244	Data, seq:13
+ Time:0262.59,At:12249 recv from:12244	Data, seq:13
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.59,At:12249 send to:12244	ACK, num:13
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+12
+==In GlobalUDP:  Time:0262.59,At:12249 send to:12244	ACK, num:13
+ Time:0262.59,At:12244 send to:12249	Data, seq:21
+timeoutNum 21
+timeout -1717580232.5912607
+==In GlobalUDP:  Time:0262.59,At:12244 send to:12249	Data, seq:21
+///Before push In GlobalUDP:  Time:0262.59,At:12244 recv from:12249	ACK, num:13
+==In GlobalUDP:  Time:0262.59,At:12244 recv from:12249	ACK, num:13
+ Time:0262.59,At:12244 recv from:12249	ACK, num:13
+timeoutNum 21
+timeout -1717580232.5963187
+///Before push In GlobalUDP:  Time:0262.60,At:12249 recv from:12244	Data, seq:14
+==In GlobalUDP:  Time:0262.60,At:12249 recv from:12244	Data, seq:14
+ Time:0262.60,At:12249 recv from:12244	Data, seq:14
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.60,At:12249 send to:12244	ACK, num:14
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+13
+==In GlobalUDP:  Time:0262.60,At:12249 send to:12244	ACK, num:14
+ Time:0262.60,At:12244 send to:12249	Data, seq:22
+timeoutNum 22
+timeout -1717580232.6075664
+==In GlobalUDP:  Time:0262.60,At:12244 send to:12249	Data, seq:22
+ Time:0262.62,At:12244 send to:12249	Data, seq:23
+timeoutNum 13
+timeout 29.828561305999756
+==In GlobalUDP:  Time:0262.62,At:12244 send to:12249	Data, seq:23
+///Before push In GlobalUDP:  Time:0262.64,At:12244 recv from:12249	ACK, num:14
+///Before push In GlobalUDP:  Time:0262.64,At:12249 recv from:12244	Data, seq:15
+==In GlobalUDP:  Time:0262.64,At:12244 recv from:12249	ACK, num:14
+ Time:0262.64,At:12244 recv from:12249	ACK, num:14
+==In GlobalUDP:  Time:0262.64,At:12249 recv from:12244	Data, seq:15
+timeoutNum 23
+timeout -1717580232.6453023
+ Time:0262.64,At:12249 recv from:12244	Data, seq:15
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.64,At:12249 send to:12244	ACK, num:15
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+14
+==In GlobalUDP:  Time:0262.64,At:12249 send to:12244	ACK, num:15
+///Before push In GlobalUDP:  Time:0262.64,At:12244 recv from:12249	ACK, num:15
+==In GlobalUDP:  Time:0262.65,At:12244 recv from:12249	ACK, num:15
+ Time:0262.65,At:12244 recv from:12249	ACK, num:15
+timeoutNum 23
+timeout -1717580232.650854
+ Time:0262.65,At:12244 send to:12249	Data, seq:24
+timeoutNum 24
+timeout -1717580232.6538565
+==In GlobalUDP:  Time:0262.65,At:12244 send to:12249	Data, seq:24
+///Before push In GlobalUDP:  Time:0262.66,At:12249 recv from:12244	Data, seq:16
+==In GlobalUDP:  Time:0262.66,At:12249 recv from:12244	Data, seq:16
+ Time:0262.66,At:12249 recv from:12244	Data, seq:16
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.66,At:12249 send to:12244	ACK, num:16
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+15
+==In GlobalUDP:  Time:0262.66,At:12249 send to:12244	ACK, num:16
+ Time:0262.66,At:12244 send to:12249	Data, seq:25
+timeoutNum 15
+timeout 29.81349515914917
+==In GlobalUDP:  Time:0262.66,At:12244 send to:12249	Data, seq:25
+///Before push In GlobalUDP:  Time:0262.67,At:12244 recv from:12249	ACK, num:16
+==In GlobalUDP:  Time:0262.67,At:12244 recv from:12249	ACK, num:16
+ Time:0262.67,At:12244 recv from:12249	ACK, num:16
+timeoutNum 25
+timeout -1717580232.6751766
+ Time:0262.68,At:12244 send to:12249	Data, seq:26
+timeoutNum 16
+timeout 29.812557458877563
+==In GlobalUDP:  Time:0262.68,At:12244 send to:12249	Data, seq:26
+///Before push In GlobalUDP:  Time:0262.69,At:12249 recv from:12244	Data, seq:17
+ Time:0262.69,At:12249 recv from:12244	Data, seq:17
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+==In GlobalUDP:  Time:0262.69,At:12249 recv from:12244	Data, seq:17
+ Time:0262.69,At:12249 send to:12244	ACK, num:17
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+16
+==In GlobalUDP:  Time:0262.69,At:12249 send to:12244	ACK, num:17
+///Before push In GlobalUDP:  Time:0262.70,At:12249 recv from:12244	Data, seq:18
+///Before push In GlobalUDP:  Time:0262.70,At:12244 recv from:12249	ACK, num:17
+==In GlobalUDP:  Time:0262.70,At:12249 recv from:12244	Data, seq:18
+///Before push In GlobalUDP:  Time:0262.70,At:12249 recv from:12244	Data, seq:19
+==In GlobalUDP:  Time:0262.70,At:12244 recv from:12249	ACK, num:17
+ Time:0262.70,At:12244 recv from:12249	ACK, num:17
+ Time:0262.70,At:12249 recv from:12244	Data, seq:18timeoutNum
+ 26
+timeout -1717580232.706901
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.70,At:12249 send to:12244	ACK, num:18
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+17
+==In GlobalUDP:  Time:0262.70,At:12249 recv from:12244	Data, seq:19
+==In GlobalUDP:  Time:0262.70,At:12249 send to:12244	ACK, num:18
+ Time:0262.70,At:12249 recv from:12244	Data, seq:19
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.70,At:12249 send to:12244	ACK, num:19
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+18
+==In GlobalUDP:  Time:0262.70,At:12249 send to:12244	ACK, num:19
+ Time:0262.71,At:12244 send to:12249	Data, seq:27
+timeoutNum 17
+timeout 29.827361583709717
+==In GlobalUDP:  Time:0262.71,At:12244 send to:12249	Data, seq:27
+///Before push In GlobalUDP:  Time:0262.72,At:12244 recv from:12249	ACK, num:18
+==In GlobalUDP:  Time:0262.72,At:12244 recv from:12249	ACK, num:18
+ Time:0262.72,At:12244 recv from:12249	ACK, num:18
+timeoutNum 27
+timeout -1717580232.7287114
+ Time:0262.73,At:12244 send to:12249	Data, seq:28
+timeoutNum 18
+timeout 29.828953504562378
+==In GlobalUDP:  Time:0262.73,At:12244 send to:12249	Data, seq:28
+///Before push In GlobalUDP:  Time:0262.73,At:12249 recv from:12244	Data, seq:20
+==In GlobalUDP:  Time:0262.73,At:12249 recv from:12244	Data, seq:20
+ Time:0262.73,At:12249 recv from:12244	Data, seq:20
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.73,At:12249 send to:12244	ACK, num:20
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+19
+==In GlobalUDP:  Time:0262.73,At:12249 send to:12244	ACK, num:20
+///Before push In GlobalUDP:  Time:0262.73,At:12244 recv from:12249	ACK, num:19
+///Before push In GlobalUDP:  Time:0262.73,At:12249 recv from:12244	Data, seq:21
+==In GlobalUDP:  Time:0262.73,At:12249 recv from:12244	Data, seq:21
+==In GlobalUDP:  Time:0262.73,At:12244 recv from:12249	ACK, num:19
+///Before push In GlobalUDP:  Time:0262.73,At:12244 recv from:12249	ACK, num:20
+ Time:0262.73,At:12249 recv from:12244	Data, seq:21
+ Time:0262.73,At:12244 recv from:12249	ACK, num:19
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+timeoutNum 28
+timeout -1717580232.7396116 Time:0262.73,At:12249 send to:12244	ACK, num:21
+
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+20
+==In GlobalUDP:  Time:0262.73,At:12249 send to:12244	ACK, num:21
+==In GlobalUDP:  Time:0262.73,At:12244 recv from:12249	ACK, num:20
+ Time:0262.74,At:12244 recv from:12249	ACK, num:20
+timeoutNum 28
+timeout -1717580232.740626
+///Before push In GlobalUDP:  Time:0262.74,At:12249 recv from:12244	Data, seq:22
+==In GlobalUDP:  Time:0262.74,At:12249 recv from:12244	Data, seq:22
+ Time:0262.74,At:12249 recv from:12244	Data, seq:22
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.74,At:12249 send to:12244	ACK, num:22
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+21
+==In GlobalUDP:  Time:0262.74,At:12249 send to:12244	ACK, num:22
+ Time:0262.74,At:12244 send to:12249	Data, seq:29
+timeoutNum 29
+timeout -1717580232.7472718
+==In GlobalUDP:  Time:0262.74,At:12244 send to:12249	Data, seq:29
+///Before push In GlobalUDP:  Time:0262.75,At:12249 recv from:12244	Data, seq:23
+==In GlobalUDP:  Time:0262.75,At:12249 recv from:12244	Data, seq:23
+ Time:0262.75,At:12249 recv from:12244	Data, seq:23
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.75,At:12249 send to:12244	ACK, num:23
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+22
+==In GlobalUDP:  Time:0262.75,At:12249 send to:12244	ACK, num:23
+ Time:0262.76,At:12244 send to:12249	Data, seq:30
+timeoutNum 20
+timeout 29.82912039756775
+==In GlobalUDP:  Time:0262.76,At:12244 send to:12249	Data, seq:30
+///Before push In GlobalUDP:  Time:0262.77,At:12244 recv from:12249	ACK, num:22
+==In GlobalUDP:  Time:0262.77,At:12244 recv from:12249	ACK, num:22
+ Time:0262.77,At:12244 recv from:12249	ACK, num:22
+timeoutNum 20
+timeout 29.8198139667511
+///Before push In GlobalUDP:  Time:0262.78,At:12244 recv from:12249	ACK, num:23
+==In GlobalUDP:  Time:0262.78,At:12244 recv from:12249	ACK, num:23
+ Time:0262.78,At:12244 recv from:12249	ACK, num:23
+timeoutNum 20
+timeout 29.809159517288208
+///Before push In GlobalUDP:  Time:0262.80,At:12249 recv from:12244	Data, seq:24
+==In GlobalUDP:  Time:0262.80,At:12249 recv from:12244	Data, seq:24
+ Time:0262.80,At:12249 recv from:12244	Data, seq:24
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.80,At:12249 send to:12244	ACK, num:24
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+23
+==In GlobalUDP:  Time:0262.80,At:12249 send to:12244	ACK, num:24
+///Before push In GlobalUDP:  Time:0262.80,At:12249 recv from:12244	Data, seq:25
+==In GlobalUDP:  Time:0262.80,At:12249 recv from:12244	Data, seq:25
+ Time:0262.80,At:12249 recv from:12244	Data, seq:25
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.80,At:12249 send to:12244	ACK, num:25
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+24
+==In GlobalUDP:  Time:0262.80,At:12249 send to:12244	ACK, num:25
+///Before push In GlobalUDP:  Time:0262.81,At:12244 recv from:12249	ACK, num:24
+==In GlobalUDP:  Time:0262.81,At:12244 recv from:12249	ACK, num:24
+ Time:0262.81,At:12244 recv from:12249	ACK, num:24
+timeoutNum 20
+timeout 29.777249097824097
+///Before push In GlobalUDP:  Time:0262.82,At:12249 recv from:12244	Data, seq:26
+==In GlobalUDP:  Time:0262.83,At:12249 recv from:12244	Data, seq:26
+ Time:0262.83,At:12249 recv from:12244	Data, seq:26
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.83,At:12249 send to:12244	ACK, num:26
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+25
+==In GlobalUDP:  Time:0262.83,At:12249 send to:12244	ACK, num:26
+///Before push In GlobalUDP:  Time:0262.83,At:12244 recv from:12249	ACK, num:25
+==In GlobalUDP:  Time:0262.83,At:12244 recv from:12249	ACK, num:25
+ Time:0262.83,At:12244 recv from:12249	ACK, num:25
+timeoutNum 20
+timeout 29.755635738372803
+///Before push In GlobalUDP:  Time:0262.84,At:12244 recv from:12249	ACK, num:26
+///Before push In GlobalUDP:  Time:0262.84,At:12249 recv from:12244	Data, seq:27
+==In GlobalUDP:  Time:0262.84,At:12249 recv from:12244	Data, seq:27
+==In GlobalUDP:  Time:0262.84,At:12244 recv from:12249	ACK, num:26
+ Time:0262.84,At:12244 recv from:12249	ACK, num:26
+ Time:0262.84,At:12249 recv from:12244	Data, seq:27
+timeoutNum 20
+timeout 29.74924921989441
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.84,At:12249 send to:12244	ACK, num:27
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+26
+==In GlobalUDP:  Time:0262.84,At:12249 send to:12244	ACK, num:27
+///Before push In GlobalUDP:  Time:0262.85,At:12249 recv from:12244	Data, seq:28
+==In GlobalUDP:  Time:0262.85,At:12249 recv from:12244	Data, seq:28
+ Time:0262.85,At:12249 recv from:12244	Data, seq:28
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.85,At:12249 send to:12244	ACK, num:28
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+27
+==In GlobalUDP:  Time:0262.85,At:12249 send to:12244	ACK, num:28
+///Before push In GlobalUDP:  Time:0262.86,At:12244 recv from:12249	ACK, num:27
+==In GlobalUDP:  Time:0262.86,At:12244 recv from:12249	ACK, num:27
+ Time:0262.86,At:12244 recv from:12249	ACK, num:27
+timeoutNum 20
+timeout 29.723068237304688
+///Before push In GlobalUDP:  Time:0262.87,At:12249 recv from:12244	Data, seq:29
+==In GlobalUDP:  Time:0262.87,At:12249 recv from:12244	Data, seq:29
+ Time:0262.87,At:12249 recv from:12244	Data, seq:29
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.87,At:12249 send to:12244	ACK, num:29
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+28
+==In GlobalUDP:  Time:0262.87,At:12249 send to:12244	ACK, num:29
+///Before push In GlobalUDP:  Time:0262.88,At:12244 recv from:12249	ACK, num:28
+==In GlobalUDP:  Time:0262.88,At:12244 recv from:12249	ACK, num:28
+ Time:0262.88,At:12244 recv from:12249	ACK, num:28
+timeoutNum 20
+timeout 29.707416534423828
+///Before push In GlobalUDP:  Time:0262.88,At:12249 recv from:12244	Data, seq:30
+==In GlobalUDP:  Time:0262.88,At:12249 recv from:12244	Data, seq:30
+ Time:0262.88,At:12249 recv from:12244	Data, seq:30
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000
+ Time:0262.88,At:12249 send to:12244	ACK, num:30
+hereeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+29
+==In GlobalUDP:  Time:0262.88,At:12249 send to:12244	ACK, num:30
+///Before push In GlobalUDP:  Time:0262.89,At:12244 recv from:12249	ACK, num:29
+==In GlobalUDP:  Time:0262.89,At:12244 recv from:12249	ACK, num:29
+ Time:0262.89,At:12244 recv from:12249	ACK, num:29
+timeoutNum 20
+timeout 29.69680619239807
+///Before push In GlobalUDP:  Time:0262.90,At:12244 recv from:12249	ACK, num:30
+==In GlobalUDP:  Time:0262.90,At:12244 recv from:12249	ACK, num:30
+ Time:0262.90,At:12244 recv from:12249	ACK, num:30
+timeoutNum 20
+timeout 29.68768072128296
+Process Process-2:2:
+Traceback (most recent call last):
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\GlobalUDPSocket.py", line 127, in start_udp_socket
+    next_packet: RDTHeader = send_queue.get_nowait()
+  File "<string>", line 2, in get_nowait
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\managers.py", line 809, in _callmethod
+    conn.send((self._id, methodname, args, kwds))
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\connection.py", line 211, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\connection.py", line 285, in _send_bytes
+    ov, err = _winapi.WriteFile(self._handle, buf, overlapped=True)
+KeyboardInterrupt
+Exception:
+Process Process-2:
+Traceback (most recent call last):
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\test_case.py", line 170, in RDT_receive
+    data = server_sock.recv()
+  File "D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\RDT.py", line 291, in recv
+    pkt, valid = self.__get_from_queue()
+  File "D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\RDT.py", line 57, in __get_from_queue
+    pkt: RDTHeader = self.recv_dict[self.remote_addr].get()
+  File "<string>", line 2, in get
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\managers.py", line 810, in _callmethod
+    kind, result = conn.recv()
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\connection.py", line 255, in recv
+    buf = self._recv_bytes()
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\connection.py", line 310, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt
+Process Process-1:
+Traceback (most recent call last):
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\test_case.py", line 146, in RDT_send
+    sock.send(data=data, test_case=test_case)
+  File "D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\RDT.py", line 241, in send
+    pkt, valid = self.__get_from_queue_with_timeout(timeout=max(timeout, 0.001))
+  File "D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\RDT.py", line 51, in __get_from_queue_with_timeout
+    pkt: RDTHeader = self.recv_dict[self.remote_addr].get(timeout=timeout)
+  File "<string>", line 2, in get
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\managers.py", line 810, in _callmethod
+    kind, result = conn.recv()
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\connection.py", line 255, in recv
+    buf = self._recv_bytes()
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\connection.py", line 310, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt
+Final handle
+proxy result for test case 5 True
+Traceback (most recent call last):
+  File "D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\test_case.py", line 66, in test_case
+    result = RDT_start_test(sender_sock, reciever_sock, sender_address, receiver_address, i)
+  File "D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\test_case.py", line 113, in RDT_start_test
+    sender.join()
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "E:\ProgramFiles4\Python\Python3913\lib\multiprocessing\popen_spawn_win32.py", line 108, in wait
+    res = _winapi.WaitForSingleObject(int(self._handle), msecs)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\test_case.py", line 200, in <module>
+    test_case()
+  File "D:\ComputerScience\Projects\ComputerNetwork\CS305-2024Spring-FinalProject\test_case.py", line 82, in test_case
+    if response.decode() == 'True' and result:
+UnboundLocalError: local variable 'result' referenced before assignment
+
+Process finished with exit code 1
